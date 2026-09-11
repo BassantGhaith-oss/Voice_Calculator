@@ -10,6 +10,7 @@ STT (Speech-to-Text) is the second step → using Whisper AI model to convert th
 Using the text command obtained from the previous step to execute a specific action → this could be used to manage an electronic device, such as in IoT. The operations, such as recording, saving the WAV file, transcribing the file, and executing commands, are preferably defined as functions to be called later.
 
 ## To run this code, you may need to install the following packages:
-sounddevice → used to record audio.
-wavio → used to save the recorded audio as a .wav file.
-openai-whisper → used to convert the recorded audio into text.
+sounddevice → Used to record audio.
+wavio → Used to save the recorded audio as a .wav file.
+openai-whisper → Used to convert the recorded audio into text.
+re -> Very important to separate the numbers from the text.
